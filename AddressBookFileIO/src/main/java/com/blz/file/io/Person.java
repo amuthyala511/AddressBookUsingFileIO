@@ -1,17 +1,16 @@
 package com.blz.file.io;
 
-public class Person
-{
+public class Person {
 	public String firstName;
 	public String lastName;
 	public String address;
 	public String city;
 	public String state;
-	public int zip;
-	public long phno;
+	public String zip;
+	public String phno;
 	public String emailId;
 	
-	public Person(String firstName, String lastName, String address, String city, String state, int zip, long phno, String emailId)
+	public Person(String firstName, String lastName, String address, String city, String state, String zip, String phno, String emailId)
 	{
 		this.firstName = firstName;
 		this.lastName = lastName;
@@ -63,19 +62,19 @@ public class Person
 	{
 		this.state = state;
 	}
-	public int getZip()
+	public String getZip()
 	{
 		return zip;
 	}
-	public void setZip(int zip)
+	public void setZip(String zip)
 	{
 		this.zip = zip;
 	}
-	public long getPhNo()
+	public String getPhNo()
 	{
 		return phno;
 	}
-	public void setPhNo(long phno)
+	public void setPhNo(String phno)
 	{
 		this.phno = phno;
 	}
